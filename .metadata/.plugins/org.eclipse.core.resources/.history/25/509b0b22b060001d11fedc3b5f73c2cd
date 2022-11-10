@@ -1,0 +1,26 @@
+// Below this comment: import the Scanner
+import java.util.Scanner;
+
+
+public class Initials {
+   public static void main(String[] args) {
+      // Below this comment: declare and instantiate a Scanner
+	   Scanner in = new Scanner(System.in);
+            
+      // Below this comment: declare any other variables you may need
+      
+      
+      // Below this comment: collect the required inputs
+      System.out.println("Enter name : ");
+      
+      // Below this comment: call your required method
+      
+      
+      // Below this comment: disply the required results
+      
+   }
+   
+   // define your required method here below
+   
+   
+}

@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class Converter {
+   public static void main(String[] args) {
+      // Below this comment: declare and instantiate a Scanner
+	  Scanner in = new Scanner(System.in);
+      
+      
+      // Below this comment: declare any other variables you may need
+      // to store the user's input and the Feet and Inches equivalent value
+      
+	  
+      
+      // Below this comment: collect the required inputs
+      
+      
+      // Below this comment: call your MetersToFeetAndInches method
+      
+      
+      // Below this comment: disply the required results
+      
+	  
+   }
+   
+   // define your MetersToFeetAndInches method here below
+   public static String MetersToFeetAndInches(float Meters)
+   {
+	   
+   }
+   
+}

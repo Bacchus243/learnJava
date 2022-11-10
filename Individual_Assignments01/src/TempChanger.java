@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+
+public class TempChanger {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		System.out.print("Enter temperature in Fahrenheit : ");
+		float originalTemp = in.nextFloat();
+		float convertedTemp = FahrenheitToKelvin(originalTemp);
+		System.out.printf("%.2f degrees Fahrenheit is %.2f degrees Kelvin\n",originalTemp, convertedTemp);
+		in.close();
+		
+	}
+	
+	public static float FahrenheitToKelvin(float fahrenheit) {
+		float givenTemp = fahrenheit;
+		float kelvin = (float) (((givenTemp - 32) * (5)/(9)) + 273.15);
+		return kelvin;
+	}
+
+}
+ 
