@@ -38,17 +38,18 @@ public class Initials {
 	   
 	   /* 
 	   
-	   Count the total number of spaces, keep track of how many there are/are not
-	  
-	  
-	   If No space:
-	   		First name only need be saved
-	   		
-	   If One Space:
-	  		First AND Last name need be saved
+	   analyze provided name to see if middle name exists
 	   
-	   If Two Spaces:
-	   		First, Middle, AND Last name need be saved
+	   
+	   save first name
+	   
+	   
+	   save middle name (maybe)
+	   
+	   
+	   save last name 
+	  
+	   
 	   
 	   
 	   

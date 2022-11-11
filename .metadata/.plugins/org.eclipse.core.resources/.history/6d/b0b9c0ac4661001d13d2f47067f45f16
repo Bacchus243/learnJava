@@ -25,43 +25,9 @@ public class Initials {
    }
    
    // define your required method here below
-   public static String nameToInitials(String fullName)
+   public static String nameToInitials(String name)
    {
-	   String remainingName = fullName;
-	   
-	   String firstName = "";
-	   String middleName = "";
-	   String lastName = "";
-	   
-	   
-	   
-	   
-	   /* 
-	   
-	   Count the total number of spaces, keep track of how many there are/are not
-	  
-	  
-	   If No space:
-	   		First name only need be saved
-	   		
-	   If One Space:
-	  		First AND Last name need be saved
-	   
-	   If Two Spaces:
-	   		First, Middle, AND Last name need be saved
-	   
-	   
-	   
-	   */
-	   
-	   
-	   
-	   
-	   
-	   
-	   
-	   
-	   
+	   String fullName = name;
 	   
 	   return fullName;
    }
